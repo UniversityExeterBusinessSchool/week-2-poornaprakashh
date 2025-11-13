@@ -123,7 +123,7 @@ print(len(string3) + len(string4))
 # Print whether they are allowed to go outside if they are at least 12 years old AND it is sunny.
 age = int(input("What is your age? "))
 sunny = input("Is it sunny today? (True/False) ")
-if age >= 12 and sunny == True:
+if age >= 12 and is_sunny:
     print("You can go outside and enjoy the sun")
 else:
     print("You will have to sit at home")
